@@ -9,7 +9,14 @@ Explicarei data-toggle, data-target e vamos trabalhar os principais componentes 
 Para esse exercício vou usar o seguinte modelo: https://blackrockdigital.github.io/startbootstrap-modern-business/
 
 ## aula 2
-Nesta aula vamos desenvolver um portfólio. Nosso modelo será esse: (incluir url)
+Nesta aula vamos desenvolver um portfólio. Nosso modelo será esse: https://dutra21.github.io
 
 ## aula 3
 Continuaremos desenvolvendo o portfólio
+
+## aula 4
+Nesta aula vamos fazer um exercício em dupla, o coding dojo, das imagens que estão na pasta aula4
+
+## aula 5
+Vamos subir nosso portfolio no github e netlify, falaremos sobre servidor, dominio, DNS e requisições http.
+Slides: https://docs.google.com/presentation/d/17qGFU3AzY9Wm5BxawODQMUb-XR_UpAPTNnvlBJ30svI/edit?usp=sharing
