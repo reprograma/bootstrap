@@ -12,7 +12,7 @@
 </head>
 <body>
     <!-- navbar -->
-    <nav class="nav-primary navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="nav-primary navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a class="navbar-brand" href="#">Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -206,6 +206,7 @@
             </div>
         </div>
     </main>
+    <!-- modern business -->
     <section class="modern-business">
         <div class="container">
             <div class="row">
@@ -214,14 +215,14 @@
                     <p>The Modern Business template by Start Bootstrap includes:</p>
                     <ul>
                         <li>
-                        <strong>Bootstrap v4</strong>
+                            <strong>Bootstrap v4</strong>
                         </li>
                         <li>jQuery</li>
                         <li>Font Awesome</li>
                         <li>Working contact form with validation</li>
                         <li>Unstyled page elements for easy customization</li>
-                </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid" src="assets/photo3.jpg" alt="">
@@ -229,6 +230,46 @@
             </div>
         </div>
     </section>
+    <!-- call to action -->
+    <section class="call-to-action">
+        <div class="container border-top border-secondary">
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-lg-4">
+                    <button type="button" class="btn btn-secondary btn-lg btn-block" data-target="#modalCallToAction" data-toggle="modal">Call to action</button>
+                </div>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="modalCallToAction" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                    ...
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="bg-dark p-5">
+        <div class="container">
+            <p class="text-white text-center m-0">Copyright © Your Website 2018</p>
+        </div>
+    </footer>
 
     <!-- js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
