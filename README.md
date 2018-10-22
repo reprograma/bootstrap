@@ -1,4 +1,21 @@
-# reprograma-bootstrap
+
+# Instalação do Bootstrap
+- Verificar se tem o Nodejs instalado na máquina, caso contrário instalar. https://nodejs.org/en/
+- No terminal, na pasta do projeto executar: npm init e responder as perguntas
+- Instalar o bootstrap: npm install bootstrap
+- Copiar os arquivos .js e .css que estão em node_modules/bootstrap/dist para sua pasta do projeto em que consta os arquivos js e css
+- Chamar os arquivos do bootstrap no index.html, lembrar de chamar sempre após os arquivos do Jquery
+
+# Instalação do Jquery
+- Instalar o bootstrap: npm install jquery
+- Copiar o arquivo jquery.slim.min.js que está em node_modules/jquery/dist para sua pasta do projeto em que consta os arquivos js
+- Chamar o arquivo do jquery no index.html, lembrar de chamar sempre antes dos arquivos do Bootstrap
+
+# Criando Arquivo Git Ignore
+Na raíz do projeto criar um arquivo com o nome .gitignore
+Dentro desse arquivo você vai colocar os arquivos que não serão enviados no push do git, por exemplo a pasta com as nossas bibliotecas: node_modules
+
+# Planejamento - Bootstrap
 Planejamento da aula da Reprograma da T6 sobre Bootstrap
 
 ## aula 1
@@ -15,8 +32,7 @@ Nesta aula vamos desenvolver um portfólio. Nosso modelo será esse: https://dut
 Continuaremos desenvolvendo o portfólio
 
 ## aula 4
-Nesta aula vamos fazer um exercício em dupla, o coding dojo, das imagens que estão na pasta aula4
+Validação do formulário e subir o portfolio no github
 
 ## aula 5
-Vamos subir nosso portfolio no github e netlify, falaremos sobre servidor, dominio, DNS e requisições http.
-Slides: https://docs.google.com/presentation/d/17qGFU3AzY9Wm5BxawODQMUb-XR_UpAPTNnvlBJ30svI/edit?usp=sharing
+Vamos subir nosso portfolio no netlify, integrar formulario e fazer revisão. 
