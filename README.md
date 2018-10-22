@@ -7,7 +7,7 @@
 - Chamar os arquivos do bootstrap no index.html, lembrar de chamar sempre após os arquivos do Jquery
 
 # Instalação do Jquery
-- Instalar o bootstrap: npm install jquery
+- Instalar o jquery: npm install jquery
 - Copiar o arquivo jquery.slim.min.js que está em node_modules/jquery/dist para sua pasta do projeto em que consta os arquivos js
 - Chamar o arquivo do jquery no index.html, lembrar de chamar sempre antes dos arquivos do Bootstrap
 
