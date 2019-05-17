@@ -9,9 +9,9 @@
   "author": "mariana dutra",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.1.3",
-    "jquery": "^3.3.1",
-    "jquery-validation": "^1.18.0",
-    "popper.js": "^1.14.4"
+    "bootstrap": "^4.3.1",
+    "jquery": ">=3.4.0",
+    "jquery-validation": "^1.19.0",
+    "popper.js": "^1.15.0"
   }
 }
